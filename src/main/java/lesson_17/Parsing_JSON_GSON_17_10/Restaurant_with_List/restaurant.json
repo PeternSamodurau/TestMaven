@@ -1,0 +1,17 @@
+{
+  "name": "Три пескаря",
+  "items": [
+    {
+      "name": "steak",
+      "price": 10.0
+    },
+    {
+      "name": "soup",
+      "price": 5.0
+    },
+    {
+      "name": "beer",
+      "price": 1.0
+    }
+  ]
+}

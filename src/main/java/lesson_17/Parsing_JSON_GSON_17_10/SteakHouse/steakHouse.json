@@ -1,0 +1,22 @@
+{
+  "name": "Три пескаря",
+  "owner": {
+    "name": "Peter Samod",
+    "userAddress": {
+      "country": "India",
+      "city": "Bodalim",
+      "street": "good",
+      "houseNumber": "40"
+    }
+  },
+  "cook": {
+    "name": "Ivan",
+    "age": 25,
+    "salary": 1000
+  },
+  "waiter": {
+    "name": "Vasia",
+    "age": 20,
+    "salary": 500
+  }
+}

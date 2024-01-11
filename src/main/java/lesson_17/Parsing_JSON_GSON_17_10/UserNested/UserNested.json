@@ -1,0 +1,12 @@
+{
+  "name": "Peter",
+  "email": "spvrent@mail.ru",
+  "age": 53,
+  "isDeveloper": true,
+  "userAddress": {
+    "country": "Belarus",
+    "city": "Minsk",
+    "street": "Bedi",
+    "houseNumber": "39"
+  }
+}

@@ -1,0 +1,107 @@
+                        Автоматизация сборки проектов с помощью Apache Maven.
+
+кратко - https://www.examclouds.com/ru/java/java-core-russian/lesson20
+youtube - https://www.youtube.com/watch?v=PMifgvG7KS0
+youtube - https://www.youtube.com/watch?v=2mNcwSPJByE
+1.Этапы проектирования
+
+Пишем код
+Подгружаем зависимости
+Проверить форматирование- правильность кода
+Скомпилировать
+Выполнить тесты
+Собрать в архив
+Разместить архив на сервере -дeплой
+
+2.Возможности Maven
+
+Управление зависимостями - путь к библиотеам,исходники библиотек
+Компиляция
+Выполнение тетов - отчет о тестировании, покрытие кода тестами
+Сборка в архив
+Выполнение тетов
+Сборка в архив
+Деплой на сервер приложений
+Общепринятая naming convention для директорий
+
+Плагины - это способ расширить функциональность Maven в больших диапазонах.
+Можно создать свой плагин.
+Goal-Цель - это действие, которое плагин может выполнить. Целей может быть несколько.
+Кастомизация (от англ. to customize — настраивать, изменять) процесса
+
+                               POM - Project Object Model
+
+Convention over configuration - соглашение над конфигурацией
+Properties - настройки
+РОМ.xmi это:
+-детальное описание проекта
+-информация о свойствах и особенностях проекта
+-настройки процесса сборки
+-иерархичность(наследуемость)
+
+Родительский Parent POM - аналог класса Object Java
+содержит всe настройки по умолчанию и является родительским к другим РОМ
+
+Три тега - координаты проекта, показывают место где лежит проект
+<groupId>firstTutorial.First_tutorial.Maven</groupId> - обычно путь через(.) C:\Maven\First_tutorial\firstTutorial
+<artifactId>ideaProjectOnfreeTube</artifactId> - идентификтор проекта, указвает на проект
+<version>1.0-SNAPSHOT</version> - номер версии
+
+                                    УПРАВЛЕНИЕ ЗАВИСИМОСТЯМИ
+
+youtube - https://www.youtube.com/watch?v=OvWXF_2Xi4Q&t=543s
+
+Зависимости - библиотеки  кода
+Хранилища библиотек - репозиторий
+Репозитории бывают локальные(туда скачивают зависимости) C:\Users\On\.m2\repository    и удаленные
+
+Репозиторий по умолчанию - central там хранятся зависимости
+-<repository>
+<id>central</id>
+<name>Central Repository</name>
+<url>https://repo.maven.apache.org/maven2</url>
+</repository>
+                                КАК MAVEN ПОДТЯГИВАЕТ ЗАВИСИМОСТИ(БИБЛИОТЕИ)
+пишем теги
+<dependencies>
+       <dependency>
+           <groupId>junit</groupId>           подключили библиотеку - junit
+           <artifactId>junit</artifactId>
+           <version>3.8.1</version>
+           <scope>test</scope>
+       </dependency>
+   </dependencies>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

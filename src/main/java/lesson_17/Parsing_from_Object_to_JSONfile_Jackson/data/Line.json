@@ -1,0 +1,54 @@
+{
+  "Lines" : [ {
+    "numberLine" : "1",
+    "nameLine" : "Сокольническая линия"
+  }, {
+    "numberLine" : "2",
+    "nameLine" : "Замоскворецкая линия"
+  }, {
+    "numberLine" : "3",
+    "nameLine" : "Арбатско-Покровская линия"
+  }, {
+    "numberLine" : "4",
+    "nameLine" : "Филевская линия"
+  }, {
+    "numberLine" : "5",
+    "nameLine" : "Кольцевая линия"
+  }, {
+    "numberLine" : "6",
+    "nameLine" : "Калужско-Рижская линия"
+  }, {
+    "numberLine" : "7",
+    "nameLine" : "Таганско-Краснопресненская линия"
+  }, {
+    "numberLine" : "8",
+    "nameLine" : "Калининско-Солнцевская линия"
+  }, {
+    "numberLine" : "9",
+    "nameLine" : "Серпуховско-Тимирязевская линия"
+  }, {
+    "numberLine" : "10",
+    "nameLine" : "Люблинско-Дмитровская линия"
+  }, {
+    "numberLine" : "11",
+    "nameLine" : "Большая Кольцевая Линия"
+  }, {
+    "numberLine" : "11A",
+    "nameLine" : "Каховская линия"
+  }, {
+    "numberLine" : "12",
+    "nameLine" : "Бутовская линия"
+  }, {
+    "numberLine" : "14",
+    "nameLine" : "Центральное Кольцо"
+  }, {
+    "numberLine" : "15",
+    "nameLine" : "Некрасовская линия"
+  }, {
+    "numberLine" : "D1",
+    "nameLine" : "МЦД-1"
+  }, {
+    "numberLine" : "D2",
+    "nameLine" : "МЦД-2"
+  } ]
+}
