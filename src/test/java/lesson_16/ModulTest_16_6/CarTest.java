@@ -1,9 +1,9 @@
 package lesson_16.ModulTest_16_6;
 
+import Lesson_18.ModulTest_16_6.Car;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.condition.DisabledOnJre;
 import org.junit.jupiter.api.condition.DisabledOnOs;
 import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.OS;
@@ -69,7 +69,7 @@ class CarTest {
     @ParameterizedTest
     @Execution(ExecutionMode.CONCURRENT)
     @DisplayName("Test from file - будет выводиться!!!!")    // будет выводиться в заголовке теста
-    @CsvFileSource(resources = "/lesson_16/ModulTest_16_6/test-data.csv",delimiter = '|',numLinesToSkip = 1) // см test-data.csv
+    @CsvFileSource(resources = "/Lesson_18/ModulTest_16_6/test-data.csv",delimiter = '|',numLinesToSkip = 1) // см test-data.csv
     void testSetNumberMultipleValuesTwo1(String input,String expected){
         car.setNumber(input);
         assertEquals(expected,car.getNumber());
