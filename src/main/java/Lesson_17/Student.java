@@ -1,4 +1,4 @@
-package lesson_16.lambda_16_4;
+package Lesson_17;
 
 public class Student {
     private String name;
@@ -7,12 +7,14 @@ public class Student {
     private int course;
     private double grade;
 
+
     public Student(String name, char sex, int age, int course, double grade) {
         this.name = name;
         this.sex = sex;
         this.age = age;
         this.course = course;
         this.grade = grade;
+
     }
 
     public String getName() {
@@ -55,14 +57,12 @@ public class Student {
         this.grade = grade;
     }
 
+
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", sex=" + sex +
-                ", age=" + age +
-                ", course=" + course +
-                ", grade=" + grade +
-                '}';
+        return name + " " + sex + " " + age + " " + grade;
     }
+
+
 }
+

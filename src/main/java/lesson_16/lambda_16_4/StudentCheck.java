@@ -1,5 +1,5 @@
 package lesson_16.lambda_16_4;
-
-public interface StudentCheck {
+@FunctionalInterface
+public interface StudentCheck {           // функциональный интерфейс - один абстракт метод
     boolean check(Student st);
 }
