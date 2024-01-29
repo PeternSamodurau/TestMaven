@@ -9,7 +9,7 @@ Map<String,Integer> map = Map.of("one",1,"two",2); -на основе Map,кол
              Strream<Entry<String,Integer>> stream = map.entrySet().stream()
 
 double[] arr = new double[]{3.4,6.4} - из массива
- Stream<Double> stream = Arrays.stream(arr);
+ StreamDouble stream = Arrays.stream(arr);
 
 Stream<Double> stream = Stream.generate(()-> Math.random()); -бесконечный рандомный стрим
 Stream<Double> stream = Stream.generate(()-> Math.random()).limit(3); - конечный рандомный стрим
