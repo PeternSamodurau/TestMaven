@@ -67,7 +67,7 @@ _____________________
 Stream<String> stream = Stream.of("a","b","c");
 stream.forEach(str-> Sistem.out.println(str));
 
-.cont(); возвращает long количество злементов в стрим
+.count(); возвращает long количество злементов в стрим
 
 long count = Stream.of("skillbox","sendel","skillbox","sendel")
                 .distinct()
