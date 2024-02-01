@@ -11,3 +11,381 @@
 2023-12-08 19:27:17.954 [main] INFO  Main:22 - Create object - CustomerStorage
 2023-12-08 19:31:26.797 [main] INFO  Main:35 - Create object - CustomerStorage
 2023-12-08 19:41:56.074 [main] INFO  Main:35 - Create object - CustomerStorage
+2024-01-31 19:49:45.754 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-01-31 19:49:45.763 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-01-31 19:49:46.758 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-01-31 19:49:46.758 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-01-31 19:49:46.759 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-01-31 19:49:46.760 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-01-31 19:49:46.765 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-01-31 19:50:36.699 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-01-31 19:50:36.709 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-01-31 19:50:37.822 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-01-31 19:50:37.822 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-01-31 19:50:37.823 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-01-31 19:50:37.824 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-01-31 19:50:37.829 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-01-31 19:58:44.135 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-01-31 19:58:44.144 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-01-31 19:59:52.364 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-01-31 19:59:52.375 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-01-31 19:59:53.518 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-01-31 19:59:53.519 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-01-31 19:59:53.520 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-01-31 19:59:53.520 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-01-31 19:59:53.526 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-01-31 20:08:55.479 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-01-31 20:08:55.488 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-01-31 20:08:56.709 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-01-31 20:08:56.710 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-01-31 20:08:56.711 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-01-31 20:08:56.711 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-01-31 20:08:56.717 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 14:39:09.702 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 14:39:09.714 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 14:39:11.048 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 14:39:11.049 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 14:39:11.050 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 14:39:11.051 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 14:39:11.059 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 14:40:44.119 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 14:40:44.130 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 14:40:45.397 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 14:40:45.399 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 14:40:45.400 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 14:40:45.401 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 14:40:45.408 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 14:45:33.930 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 14:45:33.939 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 14:45:35.186 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 14:45:35.186 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 14:45:35.187 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 14:45:35.188 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 14:45:35.193 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 15:17:01.932 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 15:17:01.943 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 15:17:03.161 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 15:17:03.162 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 15:17:03.163 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 15:17:03.164 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 15:17:03.170 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 15:32:22.345 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 15:32:22.362 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 15:32:24.075 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 15:32:24.075 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 15:32:24.076 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 15:32:24.076 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 15:32:24.082 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 15:33:17.477 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 15:33:17.487 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 15:33:18.906 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 15:33:18.907 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 15:33:18.908 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 15:33:18.909 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 15:33:18.916 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 15:42:17.151 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 15:42:17.162 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 15:42:18.348 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 15:42:18.349 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 15:42:18.349 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 15:42:18.350 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 15:42:18.356 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 16:48:59.983 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 16:48:59.994 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 16:49:01.259 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 16:49:01.260 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?useSSL=false]
+2024-02-01 16:49:01.260 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 16:49:01.261 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 16:49:01.266 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 16:58:21.188 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 16:58:21.203 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 16:58:22.653 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 16:58:22.654 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 16:58:22.655 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 16:58:22.656 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 16:58:22.662 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:02:30.576 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:02:30.586 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:02:31.780 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:02:31.781 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 17:02:31.782 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:02:31.782 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:02:31.789 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:02:50.767 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:02:50.777 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:02:51.932 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:02:51.932 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?useSSL=false]
+2024-02-01 17:02:51.933 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:02:51.933 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:02:51.940 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:13:37.250 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:13:37.261 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:15:44.216 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:15:44.225 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:15:45.558 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:15:45.559 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 17:15:45.559 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:15:45.560 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:15:45.566 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:26:35.641 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:26:35.654 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:29:14.658 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:29:14.668 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:29:15.899 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:29:15.900 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?useSSL=false]
+2024-02-01 17:29:15.901 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:29:15.902 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:29:15.909 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:47:58.647 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:47:58.655 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:47:59.649 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:47:59.649 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 17:47:59.650 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:47:59.650 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:47:59.655 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:55:38.066 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:55:38.078 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:55:39.268 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:55:39.268 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true]
+2024-02-01 17:55:39.269 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:55:39.270 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:55:39.277 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 17:58:45.876 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 17:58:45.886 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 17:58:47.056 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 17:58:47.057 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?useSSL=false]
+2024-02-01 17:58:47.062 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 17:58:47.064 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 17:58:47.072 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 18:08:48.642 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 18:08:48.657 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 18:08:50.338 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 18:08:50.339 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 18:08:50.339 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 18:08:50.340 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 18:08:50.346 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 18:19:19.139 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 18:19:19.150 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 18:19:20.678 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 18:19:20.679 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?useSSL=false]
+2024-02-01 18:19:20.680 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 18:19:20.681 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 18:19:20.691 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 18:20:13.852 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 18:20:13.871 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 18:20:15.414 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 18:20:15.415 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 18:20:15.415 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 18:20:15.416 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 18:20:15.421 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 18:28:41.773 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 18:28:41.787 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 18:28:43.068 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 18:28:43.068 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 18:28:43.069 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 18:28:43.069 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 18:28:43.075 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 18:43:32.604 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 18:43:32.617 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 18:43:34.553 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 18:43:34.554 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 18:43:34.554 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 18:43:34.555 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 18:43:34.561 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:02:38.777 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 19:02:38.792 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 19:02:40.578 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:02:40.579 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox]
+2024-02-01 19:02:40.580 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:02:40.580 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 19:02:40.586 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:04:25.764 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 19:04:25.774 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 19:04:27.156 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:04:27.158 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?useSSL=false]
+2024-02-01 19:04:27.159 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:04:27.160 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 19:04:27.168 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:06:59.728 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-01 19:06:59.739 [main] INFO  org.hibernate.cfg.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-02-01 19:07:01.106 [main] INFO  org.hibernate.orm.connections.pooling:139 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:07:01.107 [main] INFO  org.hibernate.orm.connections.pooling:161 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?verifyServerCertificate?=false?useSSL=false]
+2024-02-01 19:07:01.108 [main] INFO  org.hibernate.orm.connections.pooling:170 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:07:01.108 [main] INFO  org.hibernate.orm.connections.pooling:174 - HHH10001003: Autocommit mode: false
+2024-02-01 19:07:01.118 [main] INFO  org.hibernate.orm.connections.pooling:366 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:21:04.903 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:22:15.273 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:22:16.249 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:22:16.777 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:22:16.778 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:22:16.778 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:22:16.779 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:22:16.785 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:24:52.637 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:24:53.531 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:24:54.005 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:24:54.008 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employees?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:24:54.009 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:24:54.009 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:24:54.016 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:27:27.868 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:27:28.912 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:27:29.497 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:27:29.497 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:27:29.498 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:27:29.499 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:27:29.508 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:31:12.611 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:31:13.801 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:31:14.235 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:31:14.236 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:31:14.236 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:31:14.237 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:31:14.245 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:36:26.669 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:36:27.893 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:36:28.332 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:36:28.333 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:36:28.333 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:36:28.334 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:36:28.343 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:39:29.122 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:39:30.172 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:39:30.715 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:39:30.715 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:39:30.716 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:39:30.717 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:39:30.728 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 19:41:30.938 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 19:41:32.018 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 19:41:32.485 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 19:41:32.485 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 19:41:32.486 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 19:41:32.487 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 19:41:32.493 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:36:23.067 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:36:24.072 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:36:24.554 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:36:24.555 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:36:24.555 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:36:24.556 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:36:24.563 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:37:13.917 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:37:14.712 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:37:15.125 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:37:15.126 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:37:15.127 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:37:15.128 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:37:15.133 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:40:41.541 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:40:42.432 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:40:42.850 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:40:42.851 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:40:42.852 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:40:42.852 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:40:42.859 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:42:44.600 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:42:45.402 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:42:45.801 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:42:45.802 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:42:45.803 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:42:45.803 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:42:45.811 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:43:12.142 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:43:13.080 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:43:13.566 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:43:13.567 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:43:13.568 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:43:13.569 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:43:13.577 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:46:03.559 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:46:04.524 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:46:04.973 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:46:04.973 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:46:04.974 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:46:04.975 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:46:04.982 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:47:39.815 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:47:40.631 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:47:41.025 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:47:41.026 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:47:41.027 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:47:41.028 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:47:41.033 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:50:45.841 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:50:46.679 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:50:47.035 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:50:47.036 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:50:47.036 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:50:47.037 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:50:47.043 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:51:47.364 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:51:48.208 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:51:48.603 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:51:48.604 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:51:48.605 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:51:48.605 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:51:48.611 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:51:51.295 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39c7fb0b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 20:51:51.362 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:55:13.580 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:55:14.362 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:55:14.759 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:55:14.759 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:55:14.760 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:55:14.761 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:55:14.767 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:55:17.482 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@322b09da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 20:55:17.538 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:57:15.085 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:57:15.913 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:57:16.303 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:57:16.304 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:57:16.304 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:57:16.306 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:57:16.317 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:57:19.112 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@322b09da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 20:57:19.411 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:57:48.529 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 20:57:49.313 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 20:57:49.766 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 20:57:49.766 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 20:57:49.767 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 20:57:49.768 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 20:57:49.775 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 20:57:52.515 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@308e87a1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 20:57:52.863 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:00:45.549 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 21:00:46.304 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 21:00:46.709 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 21:00:46.709 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:00:46.710 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 21:00:46.711 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 21:00:46.719 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 21:03:08.161 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 21:03:08.996 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 21:03:09.438 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 21:03:09.439 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:03:09.439 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 21:03:09.440 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 21:03:09.446 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 21:03:12.160 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2565a7d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 21:03:12.211 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:04:20.721 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 21:04:21.519 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 21:04:21.958 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 21:04:21.959 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:04:21.960 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 21:04:21.961 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 21:04:21.967 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 21:04:24.639 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32dcfeea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 21:04:24.722 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:09:50.951 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-01 21:09:51.763 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-01 21:09:52.106 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-01 21:09:52.107 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-01 21:09:52.108 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-01 21:09:52.108 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-01 21:09:52.114 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-01 21:09:54.632 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32dcfeea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-01 21:09:54.935 [main] INFO  org.hibernate.orm.connections.pooling:606 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false]
