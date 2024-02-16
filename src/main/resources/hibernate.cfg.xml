@@ -21,7 +21,9 @@
         <property name="hbm2ddl.auto">validate</property>
         <!--  Mapping entity class -->
 
-        <mapping class="lesson_20.Hibernate.skillbox.Course"></mapping>
+            <mapping class="lesson_20.Hibernate.skillbox.Course"></mapping>
+            <mapping class="lesson_20.Hibernate.skillbox.entity.Teacher"></mapping>
+            <mapping class="lesson_20.Hibernate.skillbox.entity.Student"></mapping>
 
     </session-factory>
 </hibernate-configuration>

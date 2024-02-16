@@ -41,3 +41,22 @@
 2024-02-01 20:36:25.044 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Access denied for user 'root'@'localhost' (using password: NO)
 2024-02-01 20:37:15.726 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Access denied for user 'root'@'localhost' (using password: YES)
 2024-02-01 21:00:47.280 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Access denied for user 'root'@'localhost' (using password: YES)
+2024-02-02 15:00:50.861 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Field 'id' doesn't have a default value
+2024-02-02 15:00:50.876 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-02 15:00:50.877 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-02 16:39:04.547 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-02 16:39:04.548 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-02 16:39:34.645 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-02 16:39:34.646 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-02 16:40:59.677 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-02 16:40:59.680 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-02 16:47:13.327 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-02 16:47:13.328 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-05 15:24:50.023 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-05 15:24:50.025 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-05 15:43:42.302 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-05 15:43:42.304 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-05 15:57:28.138 [main] ERROR org.hibernate.orm.connections.pooling:475 - Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+2024-02-05 15:57:28.139 [main] ERROR org.hibernate.orm.connections.pooling:302 - Connection leak detected: there are 1 unclosed connections
+2024-02-05 16:29:11.813 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Column 'type' cannot be null
+2024-02-05 16:34:34.019 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:150 - Cannot add or update a child row: a foreign key constraint fails (`skillbox`.`courses`, CONSTRAINT `teacher` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`))
