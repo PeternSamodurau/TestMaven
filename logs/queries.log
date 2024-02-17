@@ -1954,7 +1954,7 @@
 2024-02-16 17:20:55.723 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
 2024-02-16 17:20:58.425 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a6d1ff3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2024-02-16 17:20:58.824 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:117 - HHH000327: Error performing load command
-org.hibernate.PropertyAccessException: Null value was assigned to a property [class lesson_20.Hibernate.skillbox.Course.teacherId] of primitive type: 'lesson_20.Hibernate.skillbox.Course.teacherId' (setter)
+org.hibernate.PropertyAccessException: Null value was assigned to a property [class lesson_20.Hibernate.skillbox.entity.Course.teacherId] of primitive type: 'lesson_20.Hibernate.skillbox.entity.Course.teacherId' (setter)
 	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:63) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4465) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at org.hibernate.sql.results.graph.entity.AbstractEntityInitializer.initializeEntityInstance(AbstractEntityInitializer.java:853) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
@@ -1994,7 +1994,7 @@ org.hibernate.PropertyAccessException: Null value was assigned to a property [cl
 	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1018) [hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at lesson_20.Hibernate.skillbox.ChangeInDB.changeInDB(ChangeInDB.java:13) [classes/:?]
 	at lesson_20.Hibernate.skillbox.Main.main(Main.java:23) [classes/:?]
-Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.Hibernate.skillbox.Course.teacherId to null value
+Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.Hibernate.skillbox.entity.Course.teacherId to null value
 	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:?]
 	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:?]
 	at jdk.internal.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80) ~[?:?]
@@ -2010,7 +2010,7 @@ Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.H
 2024-02-16 17:22:47.399 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
 2024-02-16 17:22:50.072 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a6d1ff3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2024-02-16 17:22:50.442 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:117 - HHH000327: Error performing load command
-org.hibernate.PropertyAccessException: Null value was assigned to a property [class lesson_20.Hibernate.skillbox.Course.teacherId] of primitive type: 'lesson_20.Hibernate.skillbox.Course.teacherId' (setter)
+org.hibernate.PropertyAccessException: Null value was assigned to a property [class lesson_20.Hibernate.skillbox.entity.Course.teacherId] of primitive type: 'lesson_20.Hibernate.skillbox.entity.Course.teacherId' (setter)
 	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:63) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4465) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at org.hibernate.sql.results.graph.entity.AbstractEntityInitializer.initializeEntityInstance(AbstractEntityInitializer.java:853) ~[hibernate-core-6.4.2.Final.jar:6.4.2.Final]
@@ -2050,7 +2050,7 @@ org.hibernate.PropertyAccessException: Null value was assigned to a property [cl
 	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1018) [hibernate-core-6.4.2.Final.jar:6.4.2.Final]
 	at lesson_20.Hibernate.skillbox.ChangeInDB.changeInDB(ChangeInDB.java:13) [classes/:?]
 	at lesson_20.Hibernate.skillbox.Main.main(Main.java:23) [classes/:?]
-Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.Hibernate.skillbox.Course.teacherId to null value
+Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.Hibernate.skillbox.entity.Course.teacherId to null value
 	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[?:?]
 	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[?:?]
 	at jdk.internal.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80) ~[?:?]
@@ -2217,3 +2217,203 @@ Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.H
 2024-02-16 19:02:06.824 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
 2024-02-16 19:02:06.830 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
 2024-02-16 19:02:09.777 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@261275ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:33:07.058 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:33:07.970 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:33:08.695 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:33:08.695 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:33:08.696 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:33:08.696 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:33:08.705 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:33:11.995 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4bdb04c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:48:32.663 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:48:33.424 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:48:33.824 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:48:33.824 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:48:33.825 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:48:33.826 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:48:33.832 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:48:37.091 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76b5a559] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:50:12.477 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:50:13.285 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:50:13.635 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:50:13.636 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:50:13.636 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:50:13.637 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:50:13.642 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:50:16.484 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@49986178] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:51:36.722 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:51:37.559 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:51:37.911 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:51:37.911 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:51:37.911 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:51:37.913 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:51:37.918 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:51:40.837 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@261275ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:52:36.350 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:52:37.108 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:52:37.487 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:52:37.488 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:52:37.488 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:52:37.489 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:52:37.494 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:52:40.325 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10bdfbcc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:53:15.815 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:53:16.559 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:53:16.920 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:53:16.920 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:53:16.920 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:53:16.921 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:53:16.926 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:53:19.848 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15e8c040] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:54:25.201 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:54:25.939 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:54:26.310 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:54:26.310 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:54:26.311 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:54:26.311 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:54:26.316 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:54:29.107 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10bdfbcc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 16:56:32.932 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 16:56:33.655 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 16:56:33.990 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 16:56:33.990 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 16:56:33.991 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 16:56:33.991 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 16:56:33.996 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 16:56:36.793 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10bdfbcc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:00:01.695 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:00:02.520 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:00:02.841 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:00:02.842 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:00:02.842 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:00:02.843 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:00:02.847 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:00:05.843 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:01:26.491 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:01:27.355 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:01:27.638 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:01:27.638 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:01:27.640 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:01:27.640 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:01:27.644 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:01:30.611 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:09:57.387 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:09:58.094 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:09:58.458 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:09:58.458 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:09:58.459 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:09:58.459 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:09:58.465 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:10:01.416 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:10:59.331 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:11:00.020 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:11:00.366 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:11:00.366 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:11:00.367 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:11:00.367 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:11:00.374 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:11:03.206 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:13:55.528 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:13:56.169 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:13:56.512 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:13:56.512 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:13:56.513 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:13:56.514 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:13:56.520 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:13:59.458 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c99f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:17:49.778 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:17:50.623 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:17:50.919 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:17:50.919 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:17:50.920 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:17:50.920 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:17:50.926 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:17:54.104 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c99f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:27:43.010 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:27:43.666 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:27:43.978 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:27:43.978 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:27:43.979 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:27:43.979 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:27:43.984 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:27:46.901 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:28:50.588 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:28:51.367 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:28:51.652 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:28:51.653 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:28:51.653 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:28:51.653 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:28:51.657 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:28:54.561 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:34:29.613 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:34:30.300 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:34:30.585 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:34:30.586 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:34:30.586 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:34:30.586 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:34:30.590 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:34:33.618 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:38:11.722 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:38:12.334 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:38:12.668 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:38:12.668 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:38:12.669 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:38:12.669 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:38:12.674 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:38:15.533 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:40:52.299 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:40:53.001 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:40:53.303 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:40:53.303 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:40:53.304 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:40:53.304 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:40:53.308 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:40:56.227 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:42:11.888 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:42:12.570 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:42:12.864 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:42:12.865 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:42:12.865 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:42:12.865 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:42:12.870 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:42:15.794 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:42:35.212 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:42:35.918 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:42:36.191 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:42:36.191 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:42:36.192 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:42:36.192 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:42:36.196 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:42:39.127 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:42:55.703 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:42:56.390 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:42:56.679 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:42:56.679 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:42:56.680 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:42:56.680 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:42:56.685 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:42:59.576 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:44:04.695 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:44:05.553 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:44:06.026 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:44:06.026 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:44:06.027 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:44:06.027 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:44:06.033 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:44:10.015 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@8f6b4ab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:44:47.213 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:44:48.072 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:44:48.401 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:44:48.401 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:44:48.402 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:44:48.403 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:44:48.410 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:44:52.003 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58182b96] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-17 17:45:23.098 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-17 17:45:23.897 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-17 17:45:24.711 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-17 17:45:24.711 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-17 17:45:24.712 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-17 17:45:24.712 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-17 17:45:24.719 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-17 17:45:28.451 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.

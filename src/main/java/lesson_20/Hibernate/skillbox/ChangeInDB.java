@@ -1,5 +1,6 @@
 package lesson_20.Hibernate.skillbox;
 
+import lesson_20.Hibernate.skillbox.entity.Course;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

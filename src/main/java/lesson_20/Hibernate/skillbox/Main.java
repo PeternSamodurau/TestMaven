@@ -10,11 +10,17 @@ package lesson_20.Hibernate.skillbox;
 // Hibernate построен на спецификации JPA  - наборе правил, который описывает взаимодействие программных объектов с записями в базах данных.
 
 
+import lesson_20.Hibernate.skillbox.hibernate_query_builder.HQB;
+import lesson_20.Hibernate.skillbox.hql.HQL;
+import lesson_20.Hibernate.skillbox.whereAndOrderBy.QueryWithWhereAndOrderBy;
+
 public class Main {
 
     public static void main(String[] args) {
 
         TestConnection.testConnection();
+        System.out.println("______________________________________________________________________________________________________________________________________");
+
 
         GetByID.getByID();
         System.out.println("______________________________________________________________________________________________________________________________________");
@@ -25,5 +31,13 @@ public class Main {
 //        DeleteFromDB.deleteFromDB();
 //        System.out.println("______________________________________________________________________________________________________________________________________");
 //        System.out.println(" 53 - удален");
+
+        HQB.hibernateQueryBuilder();
+        System.out.println("______________________________________________________________________________________________________________________________________");
+
+        QueryWithWhereAndOrderBy.queryWithWhereAndOrderBy();
+        System.out.println("______________________________________________________________________________________________________________________________________");
+
+        HQL.hibernateQueryLanguage();
     }
 }
