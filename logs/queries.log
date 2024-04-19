@@ -2417,3 +2417,11 @@ Caused by: java.lang.IllegalArgumentException: Can not set int field lesson_20.H
 2024-02-17 17:45:24.712 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
 2024-02-17 17:45:24.719 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
 2024-02-17 17:45:28.451 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74cd798f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-18 17:58:34.547 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-02-18 17:58:35.376 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-02-18 17:58:35.676 [main] INFO  org.hibernate.orm.connections.pooling:136 - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-02-18 17:58:35.676 [main] INFO  org.hibernate.orm.connections.pooling:158 - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/skillbox?allowPublicKeyRetrieval=true&useSSL=false]
+2024-02-18 17:58:35.677 [main] INFO  org.hibernate.orm.connections.pooling:167 - HHH10001001: Connection properties: {password=****, user=root}
+2024-02-18 17:58:35.677 [main] INFO  org.hibernate.orm.connections.pooling:171 - HHH10001003: Autocommit mode: false
+2024-02-18 17:58:35.681 [main] INFO  org.hibernate.orm.connections.pooling:371 - HHH10001115: Connection pool size: 10 (min=1)
+2024-02-18 17:58:38.903 [main] INFO  org.hibernate.orm.connections.access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@464400b3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.

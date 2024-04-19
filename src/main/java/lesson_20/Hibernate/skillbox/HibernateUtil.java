@@ -29,6 +29,7 @@ public class HibernateUtil {
             throw new RuntimeException("Could not initialize SessionFactory", e);
         }
     }
+
     public static SessionFactory getSessionFactory(){
         return sessionFactory;
     }
