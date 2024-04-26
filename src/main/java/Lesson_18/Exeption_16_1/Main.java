@@ -16,7 +16,7 @@ public class Main {
             System.out.println(exception.getMessage());
         }
         System.out.println("1- После код будет работать");
-        File file = new File("lesson_19/Parsing_from_Object_to_JSONfile_Jackson/data/staff.txt");       // файл найден
+        File file = new File("lesson_19_IO_and_NIO/Skillbox/Parsing_from_Object_to_JSONfile_Jackson/data/staff.txt");       // файл найден
         try {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()){
@@ -31,7 +31,7 @@ public class Main {
     }
     // или метод c исключением
     public static List<String> scan() throws FileNotFoundException{
-        File file = new File("lesson_19/Parsing_from_Object_to_JSONfile_Jackson/data/staff.txt");
+        File file = new File("lesson_19_IO_and_NIO/Skillbox/Parsing_from_Object_to_JSONfile_Jackson/data/staff.txt");
         Scanner scanner = new Scanner(file);
         List<String> strings = new ArrayList<>();
         while (scanner.hasNextLine()){
