@@ -1,9 +1,7 @@
 package A_Recurshion;
 
-import java.util.Arrays;
-
 // посчитать сумму элементов рекурсивно
-public class Main {
+public class Sum_numbers_in_array {
     public static void main(String[] args) {
         int[] array = {2, 3, 4};
        //подсчет циклом

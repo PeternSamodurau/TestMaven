@@ -1,6 +1,6 @@
 package A_Recurshion;
 
-public class Main3 {
+public class Factorial {
     public static void main(String[] args) {
         System.out.println(factorial(2));
     }

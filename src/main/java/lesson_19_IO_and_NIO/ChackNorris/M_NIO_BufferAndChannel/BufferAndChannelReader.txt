@@ -1,0 +1,5 @@
+The options parameter determines how the file is opened.
+The READ and WRITE options determine if the file should be opened for reading and/or writing.
+If neither option (or the APPEND option) is contained in the array then the file is opened for reading.
+By default reading or writing commences at the beginning of the file.
+

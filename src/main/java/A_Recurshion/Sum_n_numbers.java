@@ -1,6 +1,6 @@
 package A_Recurshion;
 
-public class Main2 {
+public class Sum_n_numbers {
     public static void main(String[] args) {
         counter(3);
     }
