@@ -28,6 +28,8 @@ public class Main {
         MyTask task = new MyTask(start, end);
 
         // Запуск задачи в пуле потоков и получение результата
+        long result = forkJoinPool.invoke(task);
+
         //Метод invoke в классе ForkJoinPool используется для выполнения задачи типа ForkJoinTask.
         // Этот метод выполняет заданную задачу и возвращает результат ее выполнения.
         //
@@ -40,7 +42,7 @@ public class Main {
         //
         //Важно отметить, что метод invoke является блокирующим, что означает, что он блокирует текущий поток до тех пор,
         // пока задача не будет выполнена и результат не будет возвращен
-        long result = forkJoinPool.invoke(task);
+
 
         System.out.println("Sum of numbers from " + start + " to " + end + ": " + result);
     }

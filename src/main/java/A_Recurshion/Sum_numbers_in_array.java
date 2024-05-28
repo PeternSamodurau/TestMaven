@@ -1,9 +1,19 @@
 package A_Recurshion;
 
+import java.util.Random;
+
 // посчитать сумму элементов рекурсивно
 public class Sum_numbers_in_array {
     public static void main(String[] args) {
-        int[] array = {2, 3, 4};
+        Random rand = new Random();
+
+        int[] array = new int[3];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rand.nextInt(1000); // Генерирует случайные числа в диапазоне от 0 до 999
+        }
+
+        long start = System.nanoTime();
        //подсчет циклом
         int sum = 0;
 
@@ -12,9 +22,15 @@ public class Sum_numbers_in_array {
         }
 
         System.out.println(sum);
-        System.out.println();
-        System.out.println(sumRec(0,0,array));
+        long finish = System.nanoTime() - start ;
 
+        System.out.println(finish);
+
+        long start1 = System.nanoTime();
+        System.out.println(sumRec(0,0,array));
+        long finish1 = System.nanoTime() - start1 ;
+
+        System.out.println(finish1);
     }
 
     //без цикла через рекурсию

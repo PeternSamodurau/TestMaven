@@ -1,0 +1,35 @@
+1.Открываем Windows PowerShell
+2.в одном окне вводим команду redis-server (подключаемся к серверу)
+3.в другом окне вводим команду redis-cli (можно писать код)
+
+SET "Number of hours for student Petrenko" 19 - добавляем элемент,устанавливаем ключ-значение
+MSET "Name" "Peter" "Color" "Green" "Rating" "10" - добавляем несколько элементов ключ значение
+GET "Number of hours for student Petrenko" получаем value 19 по ключу
+MGET "Name" "Color" "Rating" получаем все value по всем ключам
+1) "Peter"
+2) "Green"
+3) "10"
+GETRANGE "Name" 0 3  получаем часть ключа
+"Pete"
+DEL Key - удаляет ключ и элементы
+
+KEYS *    получаем информацию о всех ключах
+KEYS "Number of hours *"    получаем информацию фильтруя по ключам начинающихся с  "Number of hours....."
+
+SADD "Courses for student Petrenko" "Java" "Data analysis with Python" "1C-development"  добавляем по ключу set объектов, уникальные
+SMEMBERS "Courses for student Petrenko"  выводит по ключу set объектов
+1) "1C-development"
+2) "Data analysis with Python"
+3) "Java"
+SREM "Courses for student Petrenko" "1C-development"  - удаляет value уникальный объект из set
+(integer) 1
+SMEMBERS "Courses for student Petrenko"
+1) "Data analysis with Python"
+2) "Java"
+
+INCR "Rating" инкремент 1 по ключу если значение можно привести к int
+(integer) 11
+INCRBY "Rating" инкремент 5 по ключу если значение можно привести к int
+(integer) 16
+DECR "Rating" декремент 1 по ключу если значение можно привести к int
+(integer) 15
