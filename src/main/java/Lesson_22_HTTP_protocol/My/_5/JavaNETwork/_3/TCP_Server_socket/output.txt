@@ -1,0 +1,3 @@
+
+Client request : лови вопрос, сервер
+Server response : поймал, лови ответ
