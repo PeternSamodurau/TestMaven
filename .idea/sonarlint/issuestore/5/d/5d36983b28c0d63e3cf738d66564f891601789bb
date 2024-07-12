@@ -1,0 +1,8 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÜ¢’8Ðø‡„è1J$9b03504b-58f4-4b95-98af-e98c48c2c11f
+}
+java:S1118":Add a private constructor to hide the implicit public one.(¬øä¤8×ø‡„è1J$950b24d8-23a6-4920-8381-97dbbdacfb55
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Úø‡„è1J$6ced4f2f-1c1e-4791-971a-cef493f16c0a
+r	java:S106	"+Replace this use of System.out by a logger.(€Ê­²þÿÿÿÿ8Üø‡„è1J$f9419725-f8c7-4585-bfa1-ceb1a1b56dc2
+m	java:S106"+Replace this use of System.out by a logger.(Ú¬³¢8Þø‡„è1J$a4b07be2-9c38-4466-9642-2287e3f9ce19

@@ -1,0 +1,32 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$4953f2e5-aeb1-4b95-a463-a9581ea965c7
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$dac55b7d-26dd-4d00-823f-6922cc77a431
+†	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$25187d94-e6d6-4db5-a779-ea562356cf59
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö²ÿÐJ$3c4a8721-7851-43ed-9cb1-de2d4e350fb2
+†
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(šç•ÑùÿÿÿÿJ$49cf3842-bb8d-4c21-b24a-38cad841650c
+e	java:S106
+"+Replace this use of System.out by a logger.(ˆí¥cJ$bc781e09-37c0-4d7e-8bb9-cfa731139319
+w	java:S125	"<This block of commented-out lines of code should be removed.(æÖ«ˆJ$9d533aa1-54f7-45d4-83a1-bbbe2cc895b5
+k	java:S106"+Replace this use of System.out by a logger.(òâ¬£üÿÿÿÿJ$903d9a7f-c3e6-41b0-917f-3783af80e493
+š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$702d1970-282a-48ea-88cb-e72a411e5d61
+
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(öÍËèJ$4f68c1c1-9e0e-49c7-8853-c0bacdacf634
+k	java:S106"+Replace this use of System.out by a logger.(µ¢‹ÈùÿÿÿÿJ$75650974-3b0c-4e7b-bf6f-dd0424e03122
+k	java:S106"+Replace this use of System.out by a logger.(²ñ™–øÿÿÿÿJ$380c435c-7087-48e0-8399-a19c619b0354
+w	java:S125"<This block of commented-out lines of code should be removed.(æÖ«ˆJ$ccb5f271-de3b-40f4-b0fe-8826598a1ee3
+k	java:S106"+Replace this use of System.out by a logger.(šáèüÿÿÿÿJ$19aa1edc-d055-470d-876e-ad7d2da94a19
+š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$20963850-8c73-4765-8283-4bac9a582898
+
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¬Æ„°J$ddb8297e-a9b7-4a06-b685-ef3dcddb4ede
+f	java:S106 "+Replace this use of System.out by a logger.(¾˜ËæJ$14f4b147-0396-4513-a5ea-a2a9eb584a5d
+k	java:S106&"+Replace this use of System.out by a logger.(²ñ™–øÿÿÿÿJ$647065f4-d74c-4e67-887f-efdb08856ff6
+w	java:S125%"<This block of commented-out lines of code should be removed.(æÖ«ˆJ$c165bc58-68dd-4542-b21c-814e6d3789a1
+f	java:S106("+Replace this use of System.out by a logger.(Õ Š‡J$3ab05b90-e61a-4a9e-97b6-454ecaaf4a80
+š
+java:S2142+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$ec8dbf05-04fe-4a32-b126-5624947a8241
+
+java:S2276*"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(Í“¢œJ$fbc71e85-6154-42f7-85a6-b5615ef0dc2a
+f	java:S106."+Replace this use of System.out by a logger.(’ºÈÙJ$314a30bb-451e-4ca4-8fff-53df68ee38f7

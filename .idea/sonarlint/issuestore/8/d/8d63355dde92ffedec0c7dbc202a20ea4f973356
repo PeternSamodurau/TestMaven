@@ -1,0 +1,8 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€ÇîÿJ$5f33a095-4cde-46ba-9284-daac5c853985
+•
+java:S1210 "YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¼¿ÙøJ$06d800a7-15c0-495d-8afb-01f43cfab93a
+w	java:S125"<This block of commented-out lines of code should be removed.(ùçºŒJ$7876fc0f-b5ea-4da4-b8fe-0e30584ed3ba
+f	java:S106"+Replace this use of System.out by a logger.(Æ«Ú¡J$2e2e24cc-0733-4dbf-ad7b-eecee9c48be8
+f
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙJ$2f5af30d-c410-4513-b8c8-7274cf2a22be

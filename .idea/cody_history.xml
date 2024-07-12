@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjo0NzM4MTU=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="978c9162-3d28-4e16-9bd6-748d0595e709" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="покажи горячие клавиши intellj" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Вот некоторые популярные горячие клавиши в IntelliJ IDEA:&#10;&#10;Общие:&#10;- Ctrl+S - Сохранить все&#10;- Ctrl+Alt+L - Форматировать код&#10;- Ctrl+/ - Закомментировать/раскомментировать строку&#10;- Ctrl+Shift+/ - Закомментировать/раскомментировать блок&#10;- Alt+Insert - Генерировать код (геттеры, сеттеры, конструкторы и т.д.)&#10;- Ctrl+Alt+O - Удалить неиспользуемые импорты&#10;- Ctrl+Shift+N - Открыть диалог поиска файла&#10;- Ctrl+Shift+F - Найти во всех файлах проекта&#10;- Ctrl+Alt+Shift+L - Реформатировать код в соответствии со стилем кодирования&#10;&#10;Навигация:&#10;- Ctrl+N - Перейти к классу&#10;- Ctrl+Shift+N - Перейти к файлу&#10;- Ctrl+Alt+Shift+N - Перейти к символу&#10;- Ctrl+G - Перейти к строке&#10;- Alt+Left/Right - Переключаться между вкладками редактора&#10;- Ctrl+E - Показать недавние файлы&#10;- Ctrl+Alt+Left/Right - Переход назад/вперед&#10;&#10;Редактирование:&#10;- Ctrl+Y - Удалить строку&#10;- Ctrl+D - Дублировать строку или выделенный блок&#10;- Ctrl+Shift+U - Переключить регистр выделенного текста&#10;- Ctrl+Shift+J - Объединить линии&#10;- Ctrl+Alt+I - Автоматически исправить импорты&#10;- Ctrl+Alt+O - Оптимизировать импорты&#10;- Ctrl+Alt+T - Окружить кодом (if, циклы и т.д.)&#10;&#10;Отладка:&#10;- F9 - Запустить в режиме отладки&#10;- F8 - Пошаговое выполнение&#10;- F7 - Шаг в метод&#10;- Shift+F7 - Шаг из метода&#10;- Alt+F8 - Вычислить выражение&#10;- Ctrl+F8 - Добавить/удалить точку останова&#10;- Ctrl+Shift+F8 - Просмотреть точки останова&#10;&#10;Это лишь некоторые из наиболее часто используемых горячих клавиш. Полный список можно найти в меню &quot;Help&quot; &gt; &quot;Keymap Reference&quot;." />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-24T14:44:15.4428822" />
+              </chat>
+              <chat>
+                <internalId value="352e694d-9adf-45fc-bfb8-f6708352712d" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="e3c76b5f-0433-4a39-af9b-085a5b9a1859" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+
+
+java:S1104"PMake lock a static final constant or non-public and provide accessors if needed.(πυηγωÿÿÿÿ8³β„„θ1J$20df612b-3493-4065-905a-2f2c9f65fea4
+r
+java:S1444"*Make this "public static lock" field final(πυηγωÿÿÿÿ8µβ„„θ1J$6408445d-7694-4738-9867-8e4124a3b787
+΅	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ρΫο΄ϊÿÿÿÿ8¶β„„θ1J$eb5855dd-3b2b-4ff9-bb0f-11a2c1a5d8e0
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Ι¨Χ‚8½β„„θ1J$e4796e8d-e51b-475e-85a9-e1c4b8524ee5
